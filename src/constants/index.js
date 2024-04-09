@@ -15,6 +15,8 @@ import {
     git,
     figma,
     docker,
+    blend,
+    goldy,
     meta,
     starbucks,
     tesla,
@@ -23,6 +25,8 @@ import {
     jobit,
     tripguide,
     threejs,
+    threadpool,
+    wahoo
   } from "../assets";
   
   export const navLinks = [
@@ -46,7 +50,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Frontend Developer",
       icon: mobile,
     },
     {
@@ -54,7 +58,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Lifelong Learner",
       icon: creator,
     },
   ];
@@ -116,55 +120,27 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Software Developer Intern",
+      company_name: "Blend Interactive",
+      icon: blend,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "June 2023 - Aug 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining web applications using Javascript, C#, and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Implemented monthly support to web applications,.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "ML Research Assistant",
+      company_name: "UMN Networking Lab",
+      icon: goldy,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Sept 2023 - Dec 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Collaborated with an team of 3 and utilized PyTorch and TensorFlow to develop and tune machine learning models.",
+        "Collected LiDAR data for environment reconstruction and applied Nvidia ray-tracing technologies to simulate signal propagations.",
+        "Individually collected and analyzed other researchers’ papers and presented applicable findings to research mentor.",
       ],
     },
   ];
@@ -198,33 +174,33 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "ThreadPool",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "ThreadPool is a social media platform I designed from the ground up using tools such as NodeJS, bcrypt, MySQL, and more. Users are able securely register accounts and login, create and edit new posts, and interact with other users' posts.",
       tags: [
         {
-          name: "react",
+          name: "Express",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "MySQL",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Pugs",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: threadpool,
+      source_code_link: "https://github.com/javieravelar591/thread-pool",
     },
     {
-      name: "Job IT",
+      name: "Wahoo Skate",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Wahoo Skate is a web application I created for a fictional skate shop. I designed both server-side and client-side using a number of different tools such as NodeJs, MySQL, PugJs, ExpressJs and more!.",
       tags: [
         {
-          name: "react",
+          name: "NodeJS",
           color: "blue-text-gradient",
         },
         {
@@ -232,33 +208,12 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "PugJS",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: wahoo,
+      source_code_link: "https://github.com/javieravelar591/wahoo-skate",
     },
   ];
   
