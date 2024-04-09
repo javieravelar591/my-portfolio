@@ -16,13 +16,46 @@ const Contact = () => {
   });
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {}
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setForm({...form, [name]: value })
+  }
 
-  const handleSubmit = (e) => {}
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    emailjs.send(
+      'service_4hvxurc',
+      'template_ftfz23l',
+      {
+        from_name: form.name,
+        to_name: 'Javi',
+        from_email: form.email,
+        to_email: 'avela020@umn.edu',
+        message: form.message
+      },
+      'Oc-N6TPU7klPTX7TF'
+    ).then(() => {
+      setLoading(false);
+      alert("Thank you for the message, I'll be in touch shortly!");
+
+      setForm({
+        name: '',
+        email: '',
+        message: '',
+      });
+    }, (error) => {
+      setLoading(false);
+      console.log(error);
+      alert('Oops, something went wrong.');
+    })
+  }
+
   return (
     <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
       <motion.div
-        variants={slideIn('left', 'tween', '0.2', 1)}
+        variants={slideIn('left', 'tween', 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 2xl'
       >
         <p className={styles.sectionSubText}>Get in touch</p>

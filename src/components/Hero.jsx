@@ -6,7 +6,7 @@ import { ComputersCanvas } from './canvas';
 const Hero = () => {
   return (
     <section className='relative w-full h-screen mx-auto'>
-      <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
+      <div className={`${styles.paddingX} absolute inset-0 top-[120px] mb-10 max-w-7xl mx-auto flex flex-row items-start gap-5`}>
         <div className='flex flex-col justify-center items-center mt-5'>
           <div className='w-5 h-5 rounded-full bg-[#915eff]'/>
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
@@ -21,7 +21,7 @@ const Hero = () => {
             As a first-generation Latinx student, I bring a unique perspective shaped by my upbringing in an immigrant household. Witnessing the impact of non-accessible technology drives my commitment to breaking down barriers and serving diverse communities.
             Beyond coding, I stay abreast of industry trends and emerging technologies, particularly in Artificial Intelligence. I'm fascinated by its potential to elevate our quality of life.
             When I'm not immersed in the tech world, you'll find me engaged in the art of combat sports, skateboarding, or simply enjoying of a well-brewed cup of coffee. ☕ */}
-            I develop stuff, <br className='sm:block hidden' />give me a job please!
+            I like to develop things! <br className='sm:block hidden' />
           </p>
         </div>
       </div>
