@@ -33,8 +33,8 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        ¡Hola! I'm Javi
-        I'm a passionate and collaborative developer on a mission to make technology more accessible. My experience in software development, coupled with a degree in Computer Science, equips me to create efficient, effective, and empathetic solutions.<br />
+        ¡Hola! I'm Javi! I'm a passionate and collaborative developer on a mission to make technology more accessible. 
+        My experience in software development, coupled with a degree in Computer Science, equips me to create efficient, effective, and empathetic solutions.<br />
         <p className={`${styles.sectionSubText} mt-4 text-white`}>A little more about me:</p>
         As a first-generation Latinx student, I bring a unique perspective shaped by my upbringing in an immigrant household. Witnessing the impact of non-accessible technology drives my commitment to breaking down barriers and serving diverse communities.
         Beyond coding, I stay abreast of industry trends and emerging technologies, particularly in Artificial Intelligence. I'm fascinated by its potential to elevate our quality of life.
