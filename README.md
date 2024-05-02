@@ -2,4 +2,4 @@
 Built using React and Three.js to make a visually appealing, interactive frontend!
 
 Link to: <br />
-![image](https://javieravelar591.github.io/my-portfolio/)(https://github.com/javieravelar591/my-portfolio/assets/102786255/3d7e70e2-3d5d-4fb0-a1ae-a7872b6d7ad0)]
+[![my-portfolio](https://github.com/javieravelar591/my-portfolio/assets/102786255/3648b8dc-6c75-4a56-90f3-c7865a42b789)]([link to your URL](https://javieravelar591.github.io/my-portfolio/))
