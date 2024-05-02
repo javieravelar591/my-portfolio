@@ -1,8 +1,5 @@
-# React + Vite
+![image](https://github.com/javieravelar591/my-portfolio/assets/102786255/f5f24ac2-95e3-459c-bedf-4d7525b56fc3)# Portfolio Site
+Built using React and Three.js to make a visually appealing, interactive frontend!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Link to: <br />
+![image](https://github.com/javieravelar591/my-portfolio/assets/102786255/3d7e70e2-3d5d-4fb0-a1ae-a7872b6d7ad0)](https://javieravelar591.github.io/my-portfolio/)
