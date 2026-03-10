@@ -43,7 +43,7 @@ const Hero = () => {
         >
           <a
             href='#about'
-            className='px-6 py-3 bg-[#3b82f6] text-white font-semibold rounded-lg hover:bg-[#2563eb] transition-colors text-[15px]'
+            className='px-6 py-3 bg-[#3b82f6] text-white font-semibold rounded-lg hover:bg-[#2563eb] transition-colors text-[15px] flex items-center justify-center'
           >
             About me
           </a>
