@@ -1,4 +1,4 @@
-import logo from "./logo.png";
+import logo from "./j-logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -19,9 +19,12 @@ import threejs from "./tech/threejs.svg";
 
 import blend from './company/blend-logo.png';
 import goldy from './company/goldy.png';
+import globalPayments from './company/global_payments.avif';
 
 import threadpool from './threadpool.png';
 import wahoo from './wahoo-skate2.png';
+import switchApp from './switch.png';
+import javiGG from './javi_gg.png';
 
 export {
   logo,
@@ -43,6 +46,9 @@ export {
   threejs,
   blend,
   goldy,
+  globalPayments,
   threadpool,
   wahoo,
+  switchApp,
+  javiGG,
 };

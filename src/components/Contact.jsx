@@ -32,7 +32,7 @@ const Contact = () => {
         from_name: form.name,
         to_name: 'Javi',
         from_email: form.email,
-        to_email: 'avela020@umn.edu',
+        to_email: 'javier.avelar99@gmail.com',
         message: form.message
       },
       'Oc-N6TPU7klPTX7TF'
@@ -66,7 +66,7 @@ const Contact = () => {
           className='mt-12 flex flex-col gap-8'
         >
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your Name</span>
+            <span className='text-[#0f172a] font-medium mb-4'>Your Name</span>
             <input
               type='text' 
               name='name'
@@ -74,12 +74,12 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="What's your name?"
               className='bg-tertiary py-4 px-6 
-              placeholder:text-secondary text-white rounded-lg
+              placeholder:text-secondary text-[#0f172a] rounded-lg border border-[#e2e8f0]
               outlined-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your Email</span>
+            <span className='text-[#0f172a] font-medium mb-4'>Your Email</span>
             <input
               type='email' 
               name='email'
@@ -87,12 +87,12 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="What's your email?"
               className='bg-tertiary py-4 px-6 
-              placeholder:text-secondary text-white rounded-lg
+              placeholder:text-secondary text-[#0f172a] rounded-lg border border-[#e2e8f0]
               outlined-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your Message</span>
+            <span className='text-[#0f172a] font-medium mb-4'>Your Message</span>
             <textarea
               rows={ 7 }
               type='text' 
@@ -101,15 +101,14 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="What's your message?"
               className='bg-tertiary py-4 px-6 
-              placeholder:text-secondary text-white rounded-lg
+              placeholder:text-secondary text-[#0f172a] rounded-lg border border-[#e2e8f0]
               outlined-none border-none font-medium'
             />
           </label>
           <button
             type='submit'
-            className='bg-tertiary py-3 px-8 outline-none 
-            w-fit text-white font-bold shadow-md shadow-primary
-            rounded-xl'
+            className='py-3 px-8 outline-none w-fit text-white font-bold
+            shadow-md bg-[#3b82f6] hover:bg-[#2563eb] rounded-xl transition-colors'
           >
             {loading ? 'Sending...' : 'Send'}
           </button>

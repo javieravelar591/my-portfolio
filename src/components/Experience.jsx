@@ -9,18 +9,18 @@ import { fadeIn, textVariant } from '../utils/motion';
 
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
-    contentStyle={{background: '#1d1836', color: '#fff'}}
-    contentArrowStyle={{borderRight: '7px solid #232631'}}
+    contentStyle={{background: '#ffffff', color: '#0f172a', boxShadow: '0 4px 24px rgba(15,23,42,0.08)', border: '1px solid #e2e8f0'}}
+    contentArrowStyle={{borderRight: '7px solid #e2e8f0'}}
     date={experience.date}
     iconStyle={{ background: experience.iconBg }}
     icon={
       <div className='flex justify-center items-center w-full h-full'>
-        <img src={experience.icon} alt={experience.company_name} className='w-[60%] h-[60%] object-contain'/>
+        <img src={experience.icon} alt={experience.company_name} className='w-full h-full object-cover rounded-full'/>
       </div>
     }
   >
     <div>
-      <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>
+      <h3 className='text-[#0f172a] text-[24px] font-bold'>{experience.title}</h3>
       <p className='text-secondary text-[16px] font-semibold' style={{margin: 0}}>{experience.company_name}</p>
     </div>
     <ul className='mt-5 list-disc ml-5 space-y-2'>

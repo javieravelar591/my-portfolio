@@ -1,4 +1,4 @@
-import React, {useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import { styles } from '../styles';
@@ -18,17 +18,17 @@ const Navbar = () => {
           }}
           >
             <img src={logo} alt='logo' className='w-9 h-9 object-contain'/>
-            <p className='text-white text-[18px] font-bold cursor-pointer flex'>
+            <p className='text-[#0f172a] text-[18px] font-bold cursor-pointer flex'>
               Javier (Javi) &nbsp;<span className='sm:block hidden'>Avelar</span></p>
         </Link>
         {/* <p className='text-red-500'>red text</p> */}
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((link) => (
-            <li key={link.id} className={`${active === link.title 
-              ? "text-white" 
+            <li key={link.id} className={`${active === link.title
+              ? "text-[#0f172a]"
               : "text-secondary"
             }
-            hover:text-white text-[18px] font-medium curser-pointer`}
+            hover:text-[#0f172a] text-[18px] font-medium curser-pointer`}
             onClick={() => setActive('link.title')}
             >
               <a href={`#${link.id}`}>{link.title}</a>
